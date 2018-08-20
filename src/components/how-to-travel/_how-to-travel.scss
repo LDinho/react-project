@@ -1,0 +1,27 @@
+.howto-travel {
+  padding: 70px 0;
+
+  .container {
+    padding-bottom: 36px;
+  }
+
+  &-caption {
+    color: #7c7c7c;
+    font-size: 14px;
+  }
+
+  &-figure {
+    text-align: center;
+  }
+
+  &-header {
+    padding-bottom: 34px;
+    text-align: center;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+
+  }
+}

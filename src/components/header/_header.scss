@@ -1,0 +1,42 @@
+.header {
+
+    width: 100%;
+
+    &-link {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &-background-banner {
+        background-image: url('../../images/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        position: relative;
+
+    }
+    &-content {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    }
+    &-nav-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &-greeting {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
